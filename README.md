@@ -1,2 +1,2 @@
 # Gamexchange-Forbedring
-Fixing up on the Gamexchange website.
+Retter opp på Gamexchange-nettstedet.
