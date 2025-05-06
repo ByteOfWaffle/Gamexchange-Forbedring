@@ -1,0 +1,29 @@
+/*Header*/
+.header{
+  background-color: rgba(67, 139, 33, 0.815);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*DarkMode*/
+.dark-mode {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.dark-mode a {
+  color: #66b3ff;
+}
+
+/*Hero bilde*/
+.hero_image {
+  background-color: rgba(67, 139, 33, 0.815);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
