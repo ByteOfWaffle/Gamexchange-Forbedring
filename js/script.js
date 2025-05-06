@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.classList.add('dark-mode');
     }
 });
-// Legger til eventlistener for å sende melding
+// Kommentar funksjonen
 document.getElementById('comment-form').addEventListener('submit', function (e) {
     e.preventDefault();
     const input = document.getElementById('comment').value;

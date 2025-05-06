@@ -9,43 +9,43 @@
 </head>
 
 <body>
-<header>
-<div class="header">
-<div class="headerlinks">
-    <a href="index.html">Hjem (du er her)</a>
-    <a href="pages/høydepunkter.html">Høydepunkter</a>
-    <a href="pages/login.html">Kjøp</a>
-    <a href="pages/register.html">Ny kunde? Registrer her</a>
-    <a href="pages/kontakt.html">Om oss og kontakt</a>
-    <a href="pages/allproducts.html">Alle produkter</a>
-    <button onclick="darkmode()" class="dark-mode-toggle">Endre tema</button>
-</div>
-</div>
-</header>
+    <header>
+        <div class="header">
+            <div class="headerlinks">
+                <a href="index.html">Hjem (du er her)</a>
+                <a href="pages/høydepunkter.html">Høydepunkter</a>
+                <a href="pages/login.html">Kjøp</a>
+                <a href="pages/register.html">Ny kunde? Registrer her</a>
+                <a href="pages/kontakt.html">Om oss og kontakt</a>
+                <a href="pages/allproducts.html">Alle produkter</a>
+                <button onclick="darkmode()" class="dark-mode-toggle">Endre tema</button>
+            </div>
+        </div>
+    </header>
 
-    <font color="red" size="60">Velkommen til GameXChange</font>
-    <center>
-        <img src="assets/assetsimages/banner2.png" class="herobilde"> <!--  -->
-    </center>
-    <h2 style="margin-top: -50px;">Velkommen til GameXchange.no!</h2>
-    <marquee behavior="" direction="">
-        <h3>Ditt nettsted for kjøp og salg av brukte spill! </h3>
-    </marquee>
+    <main>
+        <h1>Velkommen til GameXChange</h1>
+        <div class="hero_image">
+            <img src="assets/images/banner2.png" alt="GameXChange banner" class="herobilde"> 
+        </div>
+        <h2>Velkommen til GameXchange.no!</h2>
+        <div class="announcement">
+            <h3>Ditt nettsted for kjøp og salg av brukte spill!</h3>
+        </div>
 
+        <section>
+            <h2>Dagbok</h2>
+            <p>Skriv en hilsen!</p>
+            <form id="comment-form">
+                <label for="comment">Din melding:</label>
+                <input type="text" id="comment">
+                <button type="submit">Send</button>
+            </form>
+            <div id="comment-section"></div>
+        </section>
+    </main>
 
-    <h2>Dagbok</h2>
-    <marquee behavior="" direction="">SKriv en hilsen!</marquee>
-    <form id="comment-form">
-        <input type="text" id="comment" />
-        <button type="submit">Send</button>
-    </form>
-    <div id="comment-section"></div>
-
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-<script src="js/script.js"></script>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
