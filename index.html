@@ -4,10 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hjem</title>
+    <link rel="stylesheet" type="text/css" href="assets/assetscss/style.css">
 </head>
 
 <body>
+<header>
+<div class="header">
+<div class="headerlinks">
+    <a href="index.html">Hjem (du er her)</a>
+    <a href="pages/høydepunkter.html">Høydepunkter</a>
+    <a href="pages/login.html">Kjøp</a>
+    <a href="pages/register.html">Ny kunde? Registrer her</a>
+    <a href="pages/kontakt.html">Om oss og kontakt</a>
+    <a href="pages/allproducts.html">Alle produkter</a>
+    <button onclick="darkmode()" class="dark-mode-toggle">Endre tema</button>
+</div>
+</div>
+</header>
+
     <font color="red" size="60">Velkommen til GameXChange</font>
     <center>
         <img src="assets/assetsimages/banner2.png" class="herobilde"> <!--  -->
@@ -16,14 +31,7 @@
     <marquee behavior="" direction="">
         <h3>Ditt nettsted for kjøp og salg av brukte spill! </h3>
     </marquee>
-    <div id="links" style="position: auto; bottom:0; margin-top: 200px;">
-        <a style="margin-right: 10px" href="">Hjem (du er her)</a><a style="margin-right: 10px"
-            href="høydepunkter.html">Høydepunkter</a><a style="margin-right: 10px" href="login.html">Kjøp</a><a
-            style="margin-right: 10px" href="Ny kunde? Registrer her"></a><astyle="margin-right: 10px"
-            href="omoss.htm1">Om
-            oss og kontakt</a><a href="allproducts.html">Alle produkter</a>
-            <div onclick="darkmode()">darkmode()</div>
-    </div>
+
 
     <h2>Dagbok</h2>
     <marquee behavior="" direction="">SKriv en hilsen!</marquee>
@@ -36,19 +44,7 @@
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <script>
-        function darkmode() {
-            /* funker ikke :() */
-            var element = document.body;
-            element.classList.toggle("dark-mode");
-        }
-        document.getElementById('comment-form').addEventListener('submit', function (e) {
-            e.preventDefault();
-            const input = document.getElementById('comment').value;
-            document.getElementById('comment-section').innerHTML += `<p>${input}</p>`;
-        });
-
-    </script>
+<script src="js/script.js"></script>
 
 </body>
 
