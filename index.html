@@ -13,7 +13,7 @@
         <div class="header">
             <div class="headerlinks">
                 <a href="index.html">Hjem (du er her)</a>
-                <a href="pages/høydepunkter.html">Høydepunkter</a>
+                <a href="pages/høydepunkter.html">Høydepunkter</a> <!-- Denne finnes ikke enda -->
                 <a href="pages/login.html">Kjøp</a>
                 <a href="pages/register.html">Ny kunde? Registrer her</a>
                 <a href="pages/kontakt.html">Om oss og kontakt</a>
@@ -23,28 +23,35 @@
         </div>
     </header>
 
-  
+    <main>
         <h1>Velkommen til GameXChange</h1>
         <div class="hero_image">
             <img src="assets/images/IntroHERO.png" alt="GameXChange banner" class="herobilde"> 
         </div>
         
-        <h2>Velkommen til GameXchange.no!</h2>
         <div class="announcement">
             <h3>Ditt nettsted for kjøp og salg av brukte spill!</h3>
         </div>
+
+    <div class="trendingpreview">
+        <h1>Trending</h1>
+        <div class="trendingpreviewImages">
+            <img src="assets/images/GodOfWarBNR.jpg" alt="God of War Ragnarok">
+            <img src="assets/images/MinecraftBNR.png" alt="Minecraft">
+    </div>
+
 
         <section>
             <h2>Dagbok</h2>
             <p>Skriv en hilsen!</p>
             <form id="comment-form">
                 <label for="comment">Din melding:</label>
-                <input type="text" id="comment">
+                <input type="text" id="comment" placeholder="Skriv din melding her...">
                 <button type="submit">Send</button>
             </form>
             <div id="comment-section"></div>
         </section>
-
+    </main>
 
     <script src="js/script.js"></script>
 </body>
