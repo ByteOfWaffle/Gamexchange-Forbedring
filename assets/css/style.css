@@ -83,6 +83,7 @@ body {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
+
 h1, h2, h3 {
   text-align: center;
   color: var(--color-accent);
@@ -103,14 +104,23 @@ h1, h2, h3 {
 }
 /*Trending preview*/
 .trendingpreview {
-  background-color: var(--color-nav-bg);
-  padding: 2rem;
   text-align: center;
 }
 
 .trendingpreview h1 {
   color: var(--color-accent);
-  margin: 0;
+}
+
+
+.trendingpreview button {
+  background-color: var(--color-accent);
+  color: var(--color-nav-text);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin: 2rem 0;
 }
 
 .trendingpreviewImages {
@@ -118,9 +128,56 @@ h1, h2, h3 {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  flex-wrap: wrap; /* Legger til flex-wrap for bedre responsivitet */
 } 
 
 .trendingpreviewImages img {
-  max-width: 300px;
+  width: 20rem;
+  height: 25rem;
   border-radius: 12px;
+  object-fit: cover; 
+}
+
+/*Kommentar seksjon*/
+.comments {
+  margin: auto; 
+  padding: 2rem;
+  background-color: var(--color-nav-bg);
+  color: var(--color-nav-text);
+}
+
+.comments p{
+  display: flex;
+  justify-content: center;
+}
+#comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+#comment-form input {
+  padding: 0.69rem;
+  border: 2px solid var(--color-accent);
+  border-radius: 4px;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+#comment-form button {
+  background-color: var(--color-accent);
+  color: var(--color-nav-text);
+  border: none;
+  padding: 1rem;
+  border-radius: 4px;
+  cursor: pointer; /* Gjør at knappen gjør cursoren til pekefinger */
+}
+
+#comment-form button:hover {
+  transform: scale(1.02);
+}
+
+#comment-section {
+  margin-top: 2rem;
+  color: var(--color-nav-text);
 }
