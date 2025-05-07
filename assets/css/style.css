@@ -59,10 +59,16 @@
 }
 
 /*Hero bilde*/
-.hero_image {
+.hero_image img {
 display: flex;
 justify-content: center;
 align-items: center;
+height: 25rem;
+}
+.image_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*Hoved innhold*/
@@ -156,6 +162,7 @@ h1, h2, h3 {
 }
 .comments h2{ 
   font-size: 3rem;
+  color: var(--color-nav-text);
 }
 #comment-form {
   display: flex;
