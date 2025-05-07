@@ -12,7 +12,7 @@ Retter opp på Gamexchange-nettstedet.
 
     1.4 [Hjemmesidens forbedringer](#hjemmesidens-forbedringer)
 
-2. [Evner du bør prøve å forbedre](#evner-du-bor-prove-å-forbedre)
+2. # [Evner du bør prøve å forbedre](#evner-du-bor-prove-å-forbedre)
 
 
 # Ting som er fikset på
