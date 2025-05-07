@@ -5,15 +5,19 @@
   --color-accent: #5d3fd3;
   --color-nav-bg: #1a1b2e;
   --color-nav-text: #ffffff;
+  --color-button-bg: #5f3bff;
+  --color-button-text: #ffffff;
 }
 
 /* Mørk modus */
 .dark-mode {
   --color-bg: #121420;
   --color-text: #f0f0f0;
-  --color-accent: #7c5dff;
+  --color-accent: #ab9af9;
   --color-nav-bg: #0c0d16;
   --color-nav-text: #ffffff;
+  --color-button-bg: #5f3bff;
+  --color-button-text: #ffffff;
 }
 
 
@@ -113,8 +117,8 @@ h1, h2, h3 {
 
 
 .trendingpreview button {
-  background-color: var(--color-accent);
-  color: var(--color-nav-text);
+  background-color: var(--color-button-bg);
+  color: var(--color-button-text);
   border: none;
   padding: 1rem 2rem;
   border-radius: 8px;
@@ -150,6 +154,9 @@ h1, h2, h3 {
   display: flex;
   justify-content: center;
 }
+.comments h2{ 
+  font-size: 3rem;
+}
 #comment-form {
   display: flex;
   flex-direction: column;
@@ -165,8 +172,8 @@ h1, h2, h3 {
   color: var(--color-text);
 }
 #comment-form button {
-  background-color: var(--color-accent);
-  color: var(--color-nav-text);
+  background-color: var(--color-button-bg);
+  color: var(--color-button-text);
   border: none;
   padding: 1rem;
   border-radius: 4px;
