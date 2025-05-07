@@ -2,9 +2,12 @@
 Retter opp på Gamexchange-nettstedet.
 
 # Table of contents
-## [Ting som er fikset på](#ting-som-er-fikset-p%C3%A5)
-
-## [Evner du bør prøve å forbedre](#evner-du-b%C3%B8r-pr%C3%B8ve-%C3%A5-forbedre)
+1. [Ting som er fikset](#ting-som-er-fikset)
+    1.1 [Farge kontrast](#farge-kontrast)
+    1.2 [Dark mode](#dark-mode)
+    1.3 [Generell HTML og CSS](#generell-html-og-css)
+    1.4 [Hjemmesidens forbedringer](#hjemmesidens-forbedringer)
+2. [Evner du bør prøve å forbedre](#evner-du-bør-prøve-å-forbedre)
 
 
 # Ting som er fikset på
