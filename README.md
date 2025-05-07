@@ -15,24 +15,32 @@ Retter opp på Gamexchange-nettstedet.
 2. # [Evner du bør prøve å forbedre](#evner-du-bor-prove-å-forbedre)
 
 
-# Ting som er fikset på
+# Ting som er fikset
 
 ## Farge kontrast
-Fargene følger nå WCAG AAA-kriteriene.
+* Fargene følger nå WCAG AAA-kriteriene.
 
 ## Dark mode
-Dark mode er nå tilgjengelig.
+* Dark mode er nå tilgjengelig.
+* Dark modes lagres i localStorage og vil bli lagret og lastet opp på alle deler av nettsiden.
 
 ## Generell HTML og CSS
-HTML og CSS har blitt forbedret og følger kode standarder.
+* HTML og CSS har blitt forbedret og følger kode standarder.
+* Fjernet unødvendig kode eller HTML som kan gjøre koden mer forrvirrende.
 
 ## Hjemmesidens forbedringer
-Hjemmesiden er nå forbedret og mer tilpasset.
+* Hjemmesiden er nå forbedret og mer tilpasset.
 
-
+## Filstruktur
 
 
 # Evner du bor prove å forbedre
 - Ikke blandt CSS/JavaScript I både HTML og deres egne filer, aller heldt hold all CSS og JavaScript i egne filer.
+
 - Test for bedre kontrast og fargeblindhet. Så at du bruke mye rød og grønn, det ble ogstå brukt i banneret, dette er dårlig for de med rød-grønn fargeblindhet. Du kan sjekke kontrast gjennom [WebAIM](https://webaim.org/resources/contrastchecker/). Eller så kan du sjekke for både kontras og fargeblindhet gjennom nettutvidelsen [WCAG Color contrast checker](https://chromewebstore.google.com/detail/WCAG%20Color%20contrast%20checker/plnahcmalebffmaghcpcmpaciebdhgdf).
+
 - Gi beskrivende navn til alle filer og elementer. Dette er viktig for å få en bedre oversikt over hvor alt i prosjektet er og hva de gjør. Dette inkludeer filnavn, bildenavn, IDnavn, Klassenavn og elementene i nettsiden. F.eks. Kommentarfeltet bør ikke hete "Dagbok", men heller noe som kansje "Kommentarer"
+
+- Ikke bruk masse break tags for å skille innhold. Dette er uvanlig og gjør koden mer forvirrende og rotete. Heller bruk CSS for å skille innhold. F.eks. Du kan bruke Margin.
+
+- Ikke ha for store mellomrom i HTML siden, det er greit å skille HTML innholdet, men det blir veldig rart om mellomromene blir for store. 
