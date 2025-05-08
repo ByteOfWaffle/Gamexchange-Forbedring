@@ -195,3 +195,12 @@ h1, h2, h3 {
   margin-top: 2rem;
   color: var(--color-nav-text);
 }
+
+/* Footer */
+footer {
+  background-color: var(--color-nav-bg);
+  color: var(--color-nav-text);
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+}
