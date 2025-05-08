@@ -304,3 +304,32 @@ footer {
     border-radius: 6px;
     cursor: pointer;
 }
+
+/* Login and Register Forms */
+#login-form,
+#register-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#login-form .form-group,
+#register-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+#login-form input,
+#register-form input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid var(--color-accent);
+    border-radius: 6px;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-size: 1rem;
+}
+
+
+.contact-form a:hover {
+    color: var(--color-button-bg);
+}

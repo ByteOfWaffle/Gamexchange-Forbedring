@@ -1,9 +1,67 @@
-<link rel="stylesheet" href="style.css">
-<h1>Velkommen til GameXchange</h1>
-<input type="text" name="username" id="">
-<input type="text" name="password" id="">
-<button>SEnd</button>
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrer deg - GameXchange</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="headerlinks">
+                <a href="../index.html">Hjem</a>
+                <a href="login.html">Logg inn</a>
+                <a href="register.html">Ny kunde? Registrer her (du er her)</a>
+                <a href="kontakt.html">Kontakt</a>
+                <a href="allproducts.html">Alle produkter</a>
+                <button onclick="darkmode()" class="dark-mode-toggle">Endre tema</button>
+            </div>
+        </div>
+    </header>
 
-<br><br><br><br><br><br><hr><br>
-<a style="margin-right: 10px" href="hjem.html">Hjem (du er her)</a><a style="margin-right: 10px" href="høydepunkter.html">Høydepunkter</a><a style="margin-right: 10px" href="login.html">Kjøp</a><a style="margin-right: 10px" href="Ny kunde? Registrer her"></a><astyle="margin-right: 10px" href="omoss.htm1">Om oss og kontakt</a><a href="allproducts.html">Alle produkter</a>
-<br><br><hr>
+    <main>
+        <section class="contact-form">
+            <h1>Registrer ny konto</h1>
+            <form action="#" method="POST" id="register-form">
+                <div class="form-group">
+                    <label for="fullname">Fullt navn:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-post:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="username">Ønsket brukernavn:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Passord:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password">Bekreft passord:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+
+                <button type="submit" class="submit-btn">Registrer</button>
+            </form>
+            <p style="text-align: center; margin-top: 1rem;">
+                Har du allerede en konto? <a href="login.html">Logg inn her</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 GameXChange. Alle rettigheter forbeholdt.</p>
+        <p>Kontakt: support@gamexchange.no</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
