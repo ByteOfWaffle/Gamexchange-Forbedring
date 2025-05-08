@@ -1,26 +1,71 @@
-
-
-
-
-
+<!DOCTYPE html>
+<html lang="nb">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <title>Kontakt oss</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Kontakt GameXchange</h1>
-    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-    <label for="vehicle1"> Spørsmål (annet) </label><br>
-    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-    <label for="vehicle2"> Jeg vil selge noe </label><br>
-    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-    <label for="vehicle3"> Jeg vil klage </label><br> 
-    Navn: <input type="text" name="navn"><br><br>
-    Epost: <input type="email"><br><br>
-    Melding:<br>
-    <textarea rows="4" cols="40"></textarea><br><br>
-</form>
-<div>Send</div>
-    <a style="margin-right: 10px" href="">Hjem (du er her)</a><a style="margin-right: 10px" href="høydepunkter.html">Høydepunkter</a><a style="margin-right: 10px" href="login.html">Kjøp</a><a style="margin-right: 10px" href="Ny kunde? Registrer her"></a><astyle="margin-right: 10px" href="omoss.htm1">Om oss og kontakt</a><a href="allproducts.html">Alle produkter</a>
+    <header>
+        <nav class="header">
+            <div class="headerlinks">
+                <a href="../index.html">Hjem</a>
+                <!-- <a href="høydepunkter.html">Høydepunkter</a> -->
+                <a href="login.html">Logg inn</a>
+                <a href="register.html">Ny kunde? Registrer her</a>
+                <a href="kontakt.html">Kontakt</a>
+                <a href="allproducts.html">Alle produkter</a>
+                <button onclick="darkmode()" class="dark-mode-toggle">Endre tema</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-form">
+            <h1>Kontakt GameXchange</h1>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Velg henvendelsestype:</legend>
+                    <div class="form-group">
+                        <input type="checkbox" id="question" name="type" value="question">
+                        <label for="question">Spørsmål (annet)</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="sell" name="type" value="sell">
+                        <label for="sell">Jeg vil selge noe</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="complaint" name="type" value="complaint">
+                        <label for="complaint">Jeg vil klage</label>
+                    </div>
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="name">Navn:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-post:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Melding:</label>
+                    <textarea id="message" name="message" rows="4" cols="40" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 GameXChange. Alle rettigheter forbeholdt.</p>
+        <p>Kontakt: support@gamexchange.no</p>
+    </footer>
+
+    <script src="../js/darkmode.js"></script>
 </body>
+</html>

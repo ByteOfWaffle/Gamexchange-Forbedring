@@ -2,7 +2,7 @@
 Retter opp på Gamexchange-nettstedet.
 
 # Table of contents
-1. # [Ting som er fikset](#ting-som-er-fikset)
+1. ## [Ting som er fikset](#ting-som-er-fikset)
 
     1.1 [Farge kontrast](#farge-kontrast)
 
@@ -12,7 +12,7 @@ Retter opp på Gamexchange-nettstedet.
 
     1.4 [Hjemmesidens forbedringer](#hjemmesidens-forbedringer)
 
-2. # [Evner du bør prøve å forbedre](#evner-du-bor-prove-å-forbedre)
+2. ## [Evner du bør prøve å forbedre](#evner-du-bor-prove-å-forbedre)
 
 
 # Ting som er fikset
@@ -45,6 +45,13 @@ Retter opp på Gamexchange-nettstedet.
 * Skiftet farger som følger WCAG AAA-kriteriene som bidrar til god UU og brukervennlighet.
 * Gjorde om dit kortbasert layout som er vannlig å ha i nettbutikker.
 
+## Kontakt oss forbedringer
+* Har riktig standard for nettside struktur. (Navn, header, main, footer)
+* Har riktig standard for CSS og JavaScript filstruktur.
+* Har riktig standard for og HTML struktur.
+* Skiftet farger som følger WCAG AAA-kriteriene som bidrar til god UU og brukervennlighet.
+* Har endret fra "Om oss og kontakt" til "Kontakt oss" fordi det er det siden hovedsaklig handler om.
+
 ## Filstruktur
 * Har organisert filene i mapper og filer.
 * Har brukt navn som er beskrivende og korrekt.
@@ -60,8 +67,9 @@ Retter opp på Gamexchange-nettstedet.
 ## Brukervennlighet
 - Gi beskrivende navn til elementene på nettsiden. f.eks. Kommentarfeltet bør ikke hete "Dagbok", men heller noe som kansje "Kommentarer". Og IDen til kjøp knappen bør
 
-## UU
+## UU (Universiell utforming)
 - Test for bedre kontrast og fargeblindhet. Så at du bruke mye rød og grønn, det ble ogstå brukt i banneret, dette er dårlig for de med rød-grønn fargeblindhet. Du kan sjekke kontrast gjennom [WebAIM](https://webaim.org/resources/contrastchecker/). Eller så kan du sjekke for både kontras og fargeblindhet gjennom nettutvidelsen [WCAG Color contrast checker](https://chromewebstore.google.com/detail/WCAG%20Color%20contrast%20checker/plnahcmalebffmaghcpcmpaciebdhgdf).
+- Husk å gi alt tekst til bildene dette er veldig viktig for UU.
 
 ## Fil/mappe struktur
 - Gi beskrivende navn til alle filer og mapper, dette er viktig for å få en bedre oversikt over hvor alt i prosjektet er og hva de gjør. Dette inkluder filnavn, bildenavn, og mappenavn.
