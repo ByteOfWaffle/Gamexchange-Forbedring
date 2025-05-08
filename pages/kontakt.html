@@ -25,21 +25,15 @@
         <section class="contact-form">
             <h1>Kontakt GameXchange</h1>
             <form action="#" method="POST">
-                <fieldset>
-                    <legend>Velg henvendelsestype:</legend>
-                    <div class="form-group">
-                        <input type="checkbox" id="question" name="type" value="question">
-                        <label for="question">Spørsmål (annet)</label>
-                    </div>
-                    <div class="form-group">
-                        <input type="checkbox" id="sell" name="type" value="sell">
-                        <label for="sell">Jeg vil selge noe</label>
-                    </div>
-                    <div class="form-group">
-                        <input type="checkbox" id="complaint" name="type" value="complaint">
-                        <label for="complaint">Jeg vil klage</label>
-                    </div>
-                </fieldset>
+                <div class="form-group">
+                    <label for="inquiry-type">Velg henvendelsestype:</label>
+                    <select id="inquiry-type" name="type" required>
+                        <option value="">Velg type henvendelse</option>
+                        <option value="question">Spørsmål (annet)</option>
+                        <option value="sell">Jeg vil selge noe</option>
+                        <option value="complaint">Jeg vil klage</option>
+                    </select>
+                </div>
 
                 <div class="form-group">
                     <label for="name">Navn:</label>

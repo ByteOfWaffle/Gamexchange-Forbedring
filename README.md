@@ -52,6 +52,7 @@ Retter opp på Gamexchange-nettstedet.
 * Skiftet farger som følger WCAG AAA-kriteriene som bidrar til god UU og brukervennlighet.
 * Har endret fra "Om oss og kontakt" til "Kontakt oss" fordi det er det siden hovedsaklig handler om.
 * Fikset på klassenavn. Fiket også på mail funksjonen
+* Endret på Henvendelsesvalg til en dropdown meny
 ## Filstruktur
 * Har organisert filene i mapper og filer.
 * Har brukt navn som er beskrivende og korrekt.
