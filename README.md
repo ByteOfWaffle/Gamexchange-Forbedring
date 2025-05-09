@@ -36,6 +36,11 @@ Retter opp på Gamexchange-nettstedet.
 * Brukervennlighet er nå bedre hva de ulike delene av nettstedet er mer klart og enklere å forstå.
 
 ## Responsive design
+* Implementerte media queries for ulike skjermstørrelser
+* Navigasjonsmenyen stables vertikalt på mobilenheter
+* Justerte bildestørrelser og spillkort for å skalere riktig på mindre skjermer
+* Gjorde forms responsive
+* Forbedret tekstlesbarhet på tvers av ulike enheter
 
 # Side spesefike fikser
 
