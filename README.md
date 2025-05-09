@@ -56,6 +56,7 @@ Retter opp på Gamexchange-nettstedet.
 * Brukervennlighet er nå bedre hva de ulike delene av nettstedet er mer klart og enklere å forstå.
 
 ## Responsive design
+Testet gjennom [Mobile simulator](https://chromewebstore.google.com/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk)
 * Implementerte media queries for ulike skjermstørrelser
 * Navigasjonsmenyen stables vertikalt på mobilenheter
 * Justerte bildestørrelser og spillkort for å skalere riktig på mindre skjermer
@@ -91,6 +92,7 @@ Retter opp på Gamexchange-nettstedet.
 # Ambefalinger for fremtidige utvidelser
 - Søkefunksjonalitet for alle produktene, om det blir mange produkter kan det bli vanskelig å scrolle gjennom alt.
 - En måte for brukeren å legge til spillene de vil selge.
+- Finne ut om du vil gjøre noe med høydepunkter eller bare fjerne ideen. Jeg kommenterte det ut hvis du ønsker å legg den til sendere.
 
 # Ting jeg fikset på og du bør fortsette å gjøre
 
