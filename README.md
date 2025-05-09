@@ -2,18 +2,38 @@
 Retter opp på Gamexchange-nettstedet.
 
 # Table of contents
-1. ## [Ting som er fikset](#ting-som-er-fikset)
+1. ## [Oppsummering ting som er fikset](#oppsummering-ting-som-er-fikset)
+    1.1 [Dark mode](#dark-mode)
+    
+    1.2 [Generell HTML og CSS struktur](#generell-html-og-css-struktur)
+    
+    1.3 [Filstruktur](#filstruktur)
+    
+    1.4 [UU og brukervennlighet](#uuuniversiell-utforming-og-brukervennlighet)
+    
+    1.5 [Responsive design](#responsive-design)
 
-    1.1 [Farge kontrast](#farge-kontrast)
+2. ## [Side spesefike fikser](#side-spesefike-fikser)
+    2.1 [Forbedringer gjort i alle sider](#forbedringer-gjort-i-alle-sider)
+    
+    2.2 [Hjemmesidens forbedringer](#hjemmesidens-forbedringer)
+    
+    2.3 [Alle produkter forbedringer](#alle-produkter-forbedringer)
+    
+    2.4 [Kontakt oss forbedringer](#kontakt-oss-forbedringer)
+    
+    2.5 [Login og Register forbedringer](#login-og-register-forbedringer)
 
-    1.2 [Dark mode](#dark-mode)
+3. ## [Ambefalinger for fremtidige utvidelser](#ambefalinger-for-fremtidige-utvidelser)
 
-    1.3 [Generell HTML og CSS](#generell-html-og-css)
-
-    1.4 [Hjemmesidens forbedringer](#hjemmesidens-forbedringer)
-
-2. ## [Evner du bør prøve å forbedre](#evner-du-bor-prove-å-forbedre)
-
+4. ## [Ting jeg fikset på og du bør fortsette å gjøre](#ting-jeg-fikset-på-og-du-bør-fortsette-å-gjøre)
+    4.1 [Brukervennlighet](#brukervennlighet)
+    
+    4.2 [UU](#uu-universiell-utforming)
+    
+    4.3 [Fil/mappe struktur](#filmappe-struktur)
+    
+    4.4 [HTML/css/js](#htmlcssjs)
 
 # Oppsummering ting som er fikset
 
@@ -68,13 +88,9 @@ Retter opp på Gamexchange-nettstedet.
 * Endret på Henvendelsesvalg til en dropdown meny. Dette er viktig f.eks. Om hendvendelsen er i dropdown meny trenger man bare å ha tre kategorier i en database som gjør det ryddig, men om man bruker checkboxer må man tenke på de ulike kombinasjonene som er mulig som kan gjøre ting unødvendig komplisert.
 * Satt opp standard oppsett for registrerings siden. (E-post, brukernavn, passord og bekreft passord)
 
-
-
 # Ambefalinger for fremtidige utvidelser
 - Søkefunksjonalitet for alle produktene, om det blir mange produkter kan det bli vanskelig å scrolle gjennom alt.
 - En måte for brukeren å legge til spillene de vil selge.
-- Du bør
-
 
 # Ting jeg fikset på og du bør fortsette å gjøre
 
