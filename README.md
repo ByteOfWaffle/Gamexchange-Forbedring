@@ -1,7 +1,7 @@
 # Gamexchange-Forbedring
 Retter opp på Gamexchange-nettstedet.
 
-# Table of contents
+# Innholdsfortegnelse
 1. ## [Oppsummering ting som er fikset](#oppsummering-ting-som-er-fikset)
     1.1 [Dark mode](#dark-mode)
     
