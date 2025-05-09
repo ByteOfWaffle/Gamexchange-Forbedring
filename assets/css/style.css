@@ -19,7 +19,10 @@
   --color-button-bg: #5f3bff;
   --color-button-text: #ffffff;
 }
-
+a { /*remove link colors and underline*/
+    color: inherit;
+    text-decoration: none;
+}
 /* Dark Mode Toggle */
 .dark-mode-toggle {
     background-color: var(--color-button-bg);
