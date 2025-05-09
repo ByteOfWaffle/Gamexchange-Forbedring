@@ -15,10 +15,7 @@ Retter opp på Gamexchange-nettstedet.
 2. ## [Evner du bør prøve å forbedre](#evner-du-bor-prove-å-forbedre)
 
 
-# Ting som er fikset
-
-## Farge kontrast
-* Fargene følger nå WCAG AAA-kriteriene.
+# Oppsummering ting som er fikset
 
 ## Dark mode
 * Dark mode er nå tilgjengelig.
@@ -27,35 +24,46 @@ Retter opp på Gamexchange-nettstedet.
 ## Generell HTML og CSS struktur
 * HTML og CSS har blitt forbedret og følger kode standarder.
 * Fjernet unødvendig kode eller HTML som kan gjøre koden mer forrvirrende.
+* Endret lang til nb (norsk bokmål) viktig for at andre som jobber med deg og søkemotor skal vite hvilket språk innholdet er i eller skal være i.
+
+## Filstruktur
+* Har organisert filene i mapper og filer.
+* Har brukt navn som er beskrivende og korrekt.
+
+## UU(Universiell utforming) og brukervennlighet
+* Test for bedre kontrast og fargeblindhet (WCAG testet).
+* Alle bilder har riktig alt tekst for bildene dette er veldig viktig for UU.
+* Brukervennlighet er nå bedre hva de ulike delene av nettstedet er mer klart og enklere å forstå.
 
 ## Responsive design
 
-## Hjemmesidens forbedringer
+# Side spesefike fikser
+
+## Forbedringer gjort i alle sider
 * Har riktig standard for nettside struktur. (Navn, header, main, footer)
 * Har riktig standard for CSS og JavaScript filstruktur.
 * Har riktig standard for og HTML struktur.
 * Skiftet farger som følger WCAG AAA-kriteriene som bidrar til god UU og brukervennlighet.
+
+## Hjemmesidens forbedringer
 * Skiftet ut Hero bildet til et som følger UU loven.
 * La til en trending seksjon som viser noen av produktene fordi når en bruker kommer inn på nettsiden bør de fort  kunne se hva nettsiden faktisk seller. Det er også en standerd å vise noen av produktene på hjemmesiden.
 
 ## Alle produkter forbedringer
-* Har riktig standard for nettside struktur. (Navn, header, main, footer)
-* Har riktig standard for CSS og JavaScript filstruktur.
-* Har riktig standard for og HTML struktur.
-* Skiftet farger som følger WCAG AAA-kriteriene som bidrar til god UU og brukervennlighet.
 * Gjorde om dit kortbasert layout som er vannlig å ha i nettbutikker.
 
 ## Kontakt oss forbedringer
-* Har riktig standard for nettside struktur. (Navn, header, main, footer)
-* Har riktig standard for CSS og JavaScript filstruktur.
-* Har riktig standard for og HTML struktur.
-* Skiftet farger som følger WCAG AAA-kriteriene som bidrar til god UU og brukervennlighet.
 * Har endret fra "Om oss og kontakt" til "Kontakt oss" fordi det er det siden hovedsaklig handler om.
 * Fikset på klassenavn. Fiket også på mail funksjonen
 * Endret på Henvendelsesvalg til en dropdown meny
-## Filstruktur
-* Har organisert filene i mapper og filer.
-* Har brukt navn som er beskrivende og korrekt.
+
+## Login og Register forbedringer
+* Gjorde det klart hvilke bokser er for brukernavn og hvilke som er for passord.
+* Lage in link under formen der man kan klikke for å gå mellom login eller register.
+* Endret på Henvendelsesvalg til en dropdown meny. Dette er viktig f.eks. Om hendvendelsen er i dropdown meny trenger man bare å ha tre kategorier i en database som gjør det ryddig, men om man bruker checkboxer må man tenke på de ulike kombinasjonene som er mulig som kan gjøre ting unødvendig komplisert.
+* Satt opp standard oppsett for registrerings siden. (E-post, brukernavn, passord og bekreft passord)
+
+
 
 # Ambefalinger for fremtidige utvidelser
 - Søkefunksjonalitet for alle produktene, om det blir mange produkter kan det bli vanskelig å scrolle gjennom alt.
