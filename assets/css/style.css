@@ -64,11 +64,9 @@ a { /*remove link colors and underline*/
   color: var(--color-accent);
 }
 
-/* Navigation Links */
 .headerlinks a, .headerlinks button {
     display: inline-block;
     padding: 0.8rem 1rem;
-    text-decoration: none;
     width: 100%;
     text-align: center;
     margin: 0.2rem 0;
